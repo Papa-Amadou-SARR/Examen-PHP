@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CURICULUM VITAE</title>
+</head>
+<body bgcolor="darkred">
+
+
+ <meta charset="utf-8">
+	<fieldset>
+		<legend>CURICULUM VITAE</legend>
+			<form method="" action="">
+                NOM : <input type="text" name=""><br><br>
+				PRENOM : <input type="text" name="" size="25">
+                <br><br>
+				<label>AGE :</label>
+				<input type="number" name="" min="1" max="100"><br><br>
+                DATE DE NAISSANCE<input type="date" name="">
+				<br><br>
+				<label>ADRESSE : </label>
+				<input type="text" placeholder="Entrer votre adresse" name="" >				
+				<br><br>
+                EMAIL :<input type="email" name="">
+				<br><br>
+                TELEPHONE :<input type="number" name="">
+				<br><br>
+                NIVEAU ETUDE : <select>
+					<option disabled="">--- Selectionner votre niveau --- </option>
+					<option selected="">Licence 1</option>
+					<option>Licence 2</option>
+					<option>Licence 3</option>
+                    <option>Master 1</option>
+                    <option>Master 2</option>
+				</select>
+                <br><br>
+                EXPERIENCE PROFESSIONNELLE :<input type="text" name="">
+				<br><br>
+				
+				
+				<br><br>
+				LANGUES : <input type="checkbox" name="" name="checked">FR
+				<input type="checkbox" name="">EN
+				<input type="checkbox" name="">AUTRES
+				<br><br>
+				
+				
+				<input type="checkbox" required>
+				Accepter les conditions<br><br>
+
+				<a href="{{path('home')}}"><input type="submit" value="Enregistrer" name=""></a>
+				<input type="reset" value="Annuler" name="">
+
+			</form>
+	
+	</fieldset>
+</body>
+</html

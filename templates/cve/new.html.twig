@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New Cv{% endblock %}
+
+{% block body %}
+    <h1>Create new Cv</h1>
+
+    {{ include('cve/_form.html.twig') }}
+
+    <a href="{{ path('cve_index') }}">back to list</a>
+{% endblock %}
